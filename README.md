@@ -2,7 +2,7 @@
 
 # Abdulharis Shaikh
 
-### Cloud & DevOps Engineer • AWS • Docker • Kubernetes • Terraform • Linux
+### Aspiring DevOps Engineer • AWS • Docker • Kubernetes • Terraform • Linux
 
 <p>
   <a href="https://linkedin.com/in/abdulharis-shaikh-2294902ab">
@@ -26,13 +26,15 @@ I enjoy designing, deploying, and automating cloud-native applications while con
 
 Currently focusing on:
 
-- ☁️ Amazon Web Services (AWS)
-- 🐳 Docker
-- ☸️ Kubernetes
-- 🌍 Terraform
-- 🐧 Linux
-- 🔄 CI/CD & Automation
-- 🐍 Python
+<p>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+</p>
 
 ---
 
@@ -71,55 +73,87 @@ Currently focusing on:
 
 # 📂 Featured Projects
 
-### 🎓 Student Result Management System
+## ☸️ Cloud-Native Web Application Deployment with Docker & Kubernetes
+**Jun 2026 – Jul 2026**
 
-A cloud-ready web application for managing student records and academic results.
+Designed and deployed a cloud-native web application using **Docker**, **Kubernetes**, and **NGINX**, implementing modern container orchestration practices through a structured, version-based development workflow.
 
-**Tech Stack**
+Containerized the application with Docker, published images to Docker Hub, and orchestrated deployments using Kubernetes Deployments, ReplicaSets, and Services for reliable workload management and service discovery.
 
-- Python
-- Flask
-- MySQL
-- AWS Elastic Beanstalk
+Implemented production-oriented Kubernetes capabilities including:
 
----
+- Horizontal Scaling
+- Self-Healing
+- Rolling Updates
+- Deployment Rollbacks
 
-### ☁️ AWS Three-Tier Infrastructure
+Configured **ConfigMaps**, **Secrets**, **Persistent Volumes (PV)**, **Persistent Volume Claims (PVC)**, and **NGINX Ingress** to demonstrate production-ready configuration management, persistent storage, and HTTP routing.
 
-Provisioned AWS infrastructure using Terraform with networking, compute, and database components.
+**Technologies**
 
-**Tech Stack**
-
-- AWS
-- Terraform
-- VPC
-- EC2
-- RDS
+`Docker` • `Kubernetes` • `Minikube` • `kubectl` • `NGINX` • `Docker Hub` • `YAML` • `HTML` • `CSS` • `JavaScript` • `Git` • `GitHub`
 
 ---
 
-### ☸️ Kubernetes Learning Projects
+## 🌍 Automated Terraform Infrastructure with Remote State & CI/CD (AWS)
+**Mar 2026**
 
-Hands-on Kubernetes deployments covering Pods, Deployments, Services, ConfigMaps, and Ingress.
+Designed and implemented an automated Infrastructure as Code (IaC) workflow using **Terraform**, **AWS**, and **GitHub Actions**.
 
-**Tech Stack**
+Configured:
 
-- Kubernetes
-- Docker
-- YAML
+- Amazon S3 Remote Backend
+- DynamoDB State Locking
+- Terraform Workspaces
+- Development & Production Environments
+
+Integrated **GitHub Actions** to automatically perform Terraform initialization, planning, and infrastructure deployment on every push, simulating real-world DevOps automation practices.
+
+**Technologies**
+
+`Terraform` • `AWS` • `GitHub Actions` • `Amazon S3` • `DynamoDB` • `IAM`
 
 ---
 
-### 🔐 AWS IAM Monitoring using Lambda
+## 🔔 AWS EC2 Launch Monitoring & Alerting System
+**Jul 2025 – Aug 2025**
 
-Automated IAM event monitoring using CloudWatch, CloudTrail, Lambda, and SNS.
+Developed a serverless AWS monitoring solution providing real-time visibility into EC2 instance launches.
 
-**Tech Stack**
+Integrated:
 
-- AWS Lambda
-- CloudTrail
-- CloudWatch
-- SNS
+- AWS CloudTrail
+- Amazon EventBridge
+- AWS Lambda (Python/Boto3)
+- Amazon SNS
+
+The solution automatically captures EC2 RunInstances events and sends email notifications containing the IAM user, timestamp, and launched instance details.
+
+Designed with reusable architecture that can easily be extended to monitor additional AWS services such as **S3**, **RDS**, and **IAM**.
+
+**Technologies**
+
+`AWS Lambda` • `CloudTrail` • `EventBridge` • `SNS` • `Python` • `Boto3` • `IAM`
+
+---
+
+## 🚀 AWS CI Pipeline for Containerized NumPy-Based Data Processing Workload
+**Dec 2025**
+
+Built a cloud-native Continuous Integration pipeline using **AWS CodePipeline**, **AWS CodeBuild**, and **Amazon ECR**.
+
+The pipeline:
+
+- Retrieves source code from GitHub
+- Builds Docker images automatically
+- Executes containerized validation during build
+- Pushes verified images to Amazon Elastic Container Registry (ECR)
+
+Demonstrates practical experience with automated build pipelines, Docker image validation, artifact management, and AWS-native DevOps workflows.
+
+**Technologies**
+
+`AWS CodePipeline` • `AWS CodeBuild` • `Amazon ECR` • `Docker` • `Python` • `NumPy` • `Pandas` • `GitHub`
 
 ---
 
