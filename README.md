@@ -156,16 +156,6 @@ Demonstrates practical experience with automated build pipelines, Docker image v
 
 ---
 
-# 🔥 Contribution Streak
-
-<p align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Abdulharis-cloud12&theme=github-dark&hide_border=true"/>
-
-</p>
-
----
-
 # 🎯 2026 Goals
 
 - Earn AWS Associate Certifications
