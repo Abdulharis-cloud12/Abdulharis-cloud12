@@ -64,6 +64,31 @@ Currently focusing on:
 
 # 📂 Featured Projects
 
+## ☁️ AWS PaaS Deployment using Elastic Beanstalk & RDS
+
+**Jul 2026 – Jul 2026**
+
+Designed and deployed a cloud-based web application using **AWS Elastic Beanstalk** and **Amazon RDS (MySQL)**, implementing a managed PaaS architecture for application hosting and database connectivity.
+
+Deployed the Flask application using the **Elastic Beanstalk CLI**, configured **Gunicorn** as the production application server, and managed application versions and environment configurations through AWS.
+
+Implemented cloud deployment capabilities including:
+
+- PaaS Application Deployment
+- Managed EC2 Infrastructure
+- RDS MySQL Integration
+- Environment Variables
+- Security Groups
+- Application Health Monitoring
+
+Configured **IAM permissions, AWS CLI, Elastic Beanstalk environments, and secure RDS connectivity** to demonstrate managed cloud infrastructure, application deployment, monitoring, and operational troubleshooting.
+
+### Technologies
+
+`AWS` • `Elastic Beanstalk` • `Amazon RDS` • `MySQL` • `EC2` • `IAM` • `CloudWatch` • `AWS CLI` • `EB CLI` • `Flask` • `Gunicorn` • `Python` • `Git` • `GitHub`
+
+---
+
 ## ☸️ Cloud-Native Web Application Deployment with Docker & Kubernetes
 **Jun 2026 – Jul 2026**
 
