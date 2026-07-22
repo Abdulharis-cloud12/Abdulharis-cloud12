@@ -153,23 +153,25 @@ Designed with reusable architecture that can easily be extended to monitor addit
 
 ---
 
-## 🚀 AWS CI Pipeline for Containerized NumPy-Based Data Processing Workload
-**Dec 2025**
+## 📊 AWS EC2 Infrastructure Monitoring with Prometheus & Grafana
 
-Built a cloud-native Continuous Integration pipeline using **AWS CodePipeline**, **AWS CodeBuild**, and **Amazon ECR**.
+**Jul 2026**
 
-The pipeline:
+Built a real-time infrastructure monitoring solution on **AWS EC2** using **Prometheus, Grafana, and Node Exporter**.
 
-- Retrieves source code from GitHub
-- Builds Docker images automatically
-- Executes containerized validation during build
-- Pushes verified images to Amazon Elastic Container Registry (ECR)
+The monitoring system:
 
-Demonstrates practical experience with automated build pipelines, Docker image validation, artifact management, and AWS-native DevOps workflows.
+- Collects Linux system metrics using Node Exporter
+- Scrapes and stores time-series metrics with Prometheus
+- Visualizes infrastructure performance through custom Grafana dashboards
+- Monitors CPU, memory, disk, network traffic, system load, processes, and uptime
+- Runs monitoring components as Linux systemd services on an Ubuntu EC2 instance
 
-**Technologies**
+Demonstrates practical experience with **cloud infrastructure monitoring, observability, PromQL, Linux administration, and AWS-based DevOps workflows**.
 
-`AWS CodePipeline` • `AWS CodeBuild` • `Amazon ECR` • `Docker` • `Python` • `NumPy` • `Pandas` • `GitHub`
+### Technologies
+
+`AWS EC2` • `Prometheus` • `Grafana` • `Node Exporter` • `PromQL` • `Ubuntu` • `Linux` • `Git` • `GitHub`
 
 ---
 
